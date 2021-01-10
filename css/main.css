@@ -1,0 +1,170 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   font-family: Century Gothic;
+}
+body {
+    background-color: #9a9a9a;
+}
+
+h1 {
+    color:  #f7ff00;
+    column-span:all;
+}
+
+.home {
+    display: block; 
+    flex-wrap: wrap;
+}
+
+header{
+    display: inline;
+    flex-wrap: wrap;
+}
+
+.in-flex#text1 {
+            column-count:3;
+            column-gap: 3em;
+	    column-rule: 1px solid #bbb;
+            column-width: 140px;
+        }
+        
+.in-flex#text2 {
+            column-count:4;
+            column-gap: 3em;
+	    column-rule: 1px solid #bbb;
+            column-width: 140px;
+        }
+
+header#banner{
+    width: 50%;
+    height: 400px;
+    background-color: red;
+    
+ }
+ header#logo{
+     width: 100%;
+     height: 400px;
+     background-color: blue;
+ }
+
+ img#img_banner{
+     display: block;
+     
+     width: 100%;
+     max-width: 1200px;
+     min-width: 100px;
+ }
+img#img_logo{
+     display: block;
+     float: left;
+     margin: 3px;
+     width: 30%;
+     max-width: 5%;
+     min-width: 1%;
+ }
+nav.menu {
+    padding: 10px;
+}
+
+nav.menu li {
+    display: inline;
+}
+nav.menu li a {
+ display: inline-block;
+ text-align: center;
+ font-family: Arial;
+ font-size: 11px;
+ text-decoration: none;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ width: 100%;
+ background-color: #dbca17;
+ color: #fff;
+ margin: 0px;
+ }
+ 
+.in-flex {
+    
+    flex: 1;
+    min-width: 200px;
+}
+.in-flex:first-child {
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.in-flex div {
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+    column-count:4;
+    column-gap: 3em;
+    column-rule: 1px solid #bbb;
+    column-width: 140px;
+}
+
+footer{
+    
+    flex-wrap: wrap;
+    background-color:  #f7ff00 ;
+    
+}
+
+footer.rrss{
+    width: 50%;
+    height: 200px;
+    background-color: red;
+}
+
+ img#img_rrss{
+     display: inline;
+     vertical-align: middle;
+     
+     width: 1%;
+     max-width: 150px;
+     min-width: 50px;
+ }
+ 
+ div.rrss {
+    
+     font-size: 33px;
+ }
+ 
+ img#columnas{
+     width: 100%;
+     display:block;
+     column-span:all;
+     
+ }
+
+img#columnas2{
+     width: 100%;
+     display:block;
+     column-span:all;
+     
+ }
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
